@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css"> <!-- External CSS file for Google Fonts and other styles -->
+	  <script defer src="index.js"></script> <!-- JavaScript file for future enhancements -->
+	  
+	<style>
+		body {
+			background-color: #f8f9fa;
+		}
+
+		.navbar {
+			background-color: #343a40;
+		}
+
+		.navbar-dark .navbar-toggler-icon {
+			background-color: #dee2e6;
+		}
+
+		.jumbotron {
+			background-color: #343a40;
+			color: #fff;
+			animation: fadeIn 1.5s ease-in-out;
+		}
+
+		@keyframes fadeIn {
+			0% { opacity: 0; }
+			100% { opacity: 1; }
+		}
+
+		.card {
+			margin: 20px;
+			animation: slideIn 1.5s ease-in-out;
+		}
+
+		@keyframes slideIn {
+			0% { transform: translateY(50px); opacity: 0; }
+			100% { transform: translateY(0); opacity: 1; }
+		}
+
+		/* Center navigation items */
+		.navbar-nav {
+			margin: auto;
+		}
+
+		/* Profile Section */
+		.profile-section {
+			background-color: #343a40;
+			color: #fff;
+			padding: 3rem;
+		}
+
+		/* My Projects Section */
+		.projects-section {
+			background-color: #f8f9fa;
+			padding: 3rem;
+		}
+
+		.project-card {
+			width: 18rem;
+		}
+
+		/* Tools Section */
+		.tools-section {
+			background-color: #343a40;
+			color: #fff;
+			padding: 3rem;
+		}
+
+		/* Contact Section */
+		.contact-section {
+			background-color: #343a40;
+			color: #fff;
+			padding: 3rem;
+		}
+
+		/* Form Styling */
+		#form-col {
+			background-color: #fff;
+			border-radius: 10px;
+			padding: 20px;
+		}
+	</style>
+	<title>Nino Ovilla Capstone1</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Nino</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Tools</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Profile Section Start -->
+	<div class="profile-section text-center bg-secondary">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<!-- Image Column -->
+				<div class="col-md-4 mt-5 mt-md-0">
+					<img class="rounded-circle" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\Onin.jpg" width="300" alt="Nino Ovilla Image" />
+				</div>
+				<!-- Text Column -->
+				<div class="col-md-8">
+					<h1 align="left">Nino Ovilla</h1>
+					<h3 align="left">Full-Stack Web Developer</h3>
+					<p align="left">Nino Ovilla -- Born: March 25, 1977. A budding full stack web developer and ready to take on the software industry. A professional responsible for working on both front-end and back-end development processes. Expert in designing, developing, and maintaining fully-fledged and functioning platforms with databases or servers. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- My Projects Section -->
+	<div class="projects-section">
+		<h2 class="text-center mb-3">My Projects</h2>
+		<div class="d-inline-block text-light d-lg-flex justify-content-center p-md-5">
+			<!-- Capstone1 card Start-->
+			<div class="card bg-dark col-lg-4 mb-5 mb-lg-0 project-card">
+				<div class="card-body">
+					<img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\Capstone1.jpg" class="card-img-top" alt="Capstone 1">
+					<h5 class="card-title">Capstone 1</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Capstone 1</h6>
+					<p class="card-text">All About Capstone1. All About Capstone1. All About Capstone1. All About Capstone1. All About Capstone1.</p>
+					<a href="#" class="card-link">Link to Project</a>
+				</div>
+			</div>
+			<!-- Capstone1 card End-->
+
+			<!-- Capstone2 Card start-->
+			<div class="card bg-dark col-lg-4 mb-5 mb-lg-0 mr-lg-5 ml-lg-5 project-card">
+				<div class="card-body">
+					<img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\Capstone2.png" class="card-img-top" alt="Capstone 2">
+					<h5 class="card-title">Capstone 2</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Capstone 2</h6>
+					<p class="card-text">All About Capstone 2. All About Capstone 2. All About Capstone 2. All About Capstone 2. All About Capstone 2.</p>
+					<a href="#" class="card-link">Link to Project</a>
+				</div>
+			</div>
+			<!-- Capstone2 card End-->
+
+			<!-- Capstone3 card Start-->
+			<div class="card bg-dark col-lg-4 mb-5 mb-lg-0 project-card">
+				<div class="card-body">
+					<img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\download.jpg" class="card-img-top" alt="Capstone 3">
+					<h5 class="card-title">Capstone 3</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Capstone 3</h6>
+					<p class="card-text">All About Capstone 3. All About Capstone 3. All About Capstone 3. All About Capstone 3. All About Capstone 3.</p>
+					<a href="#" class="card-link">Link to Project</a>
+				</div>
+			</div>
+			<!-- Capstone3 Card End-->
+		</div>
+	</div>
+
+	<!-- Tools Section -->
+	<div class="tools-section text-center bg-secondary">
+		<h3>Tools</h3>
+		<div class="row">
+			<!-- Front End Tools -->
+			<div class="col">
+				<ul style="list-style-type:none;">
+					<li>Front End
+						<div class="d-flex flex-column">
+							<div class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-html5.png" alt="HTML5"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-bootstrap.png" alt="Bootstrap"/>
+							</div>
+							<div class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-css3.png" alt="CSS3"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-javascript.png" alt="JavaScript"/>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<!-- MERN Tools -->
+			<div class="col">
+				<ul style="list-style-type:none;">
+					<li align="center">MERN
+						<div id="core-tools" class="d-flex flex-column">
+							<div id="html" class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-mongodb.png" alt="MongoDB"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-expressjs.png" alt="Express.js"/>
+							</div>
+							<div id="css-js" class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-react.png" alt="React"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-nodejs.png" alt="Node.js"/>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Other Tools -->
+			<div class="col">
+				<ul style="list-style-type:none;">
+					<li align="center">Other Tools
+						<div id="core-tools" class="d-flex flex-column">
+							<div id="html" class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-heroku.png" alt="Heroku"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-git.png" alt="Git"/>
+							</div>
+							<div id="css-js" class="d-flex justify-content-center">
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-postman.png" alt="Postman"/>
+								<img width="100" src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\logo-sublime-text-3.png" alt="Sublime Text 3"/>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<style>
+		/* Additional styles for better spacing and appearance */
+		.contact-section {
+			background-color: white;
+			padding: 20px;
+		}
+
+		.contact-icon {
+			font-size: 50px;
+			color: #007bff; /* Blue color for icons, you can adjust the color as needed */
+		}
+	</style>
+	<title>Contact Section</title>
+</head>
+<body>
+
+	<!-- Contact Section Start -->
+	<div class="contact-section text-center bg-white text-dark 
+	py-4">
+	  <h2>Contact</h2>
+
+	  <div class="row mt-4 mb-5">
+	    <!-- Facebook Logo -->
+	    <div class="col">
+	      <a href="https://www.facebook.com/profile.php?id=100014448250406" target="_blank">
+	        <img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\fb4.jpg" alt="Facebook Logo" width="50" height="50">
+	      </a>
+	    </div>
+
+	    <!-- LinkedIn Logo -->
+	    <div class="col">
+	      <a href="https://www.linkedin.com/in/nino-ovilla-7bba5464/" target="_blank">
+	        <img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\linkedin3.png" alt="LinkedIn Logo" width="50" height="50">
+	      </a>
+	    </div>
+
+	    <!-- GitLab Logo -->
+	    <div class="col">
+	      <a href="https://gitlab.com/" target="_blank">
+	        <img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\gitlab3.png" alt="GitLab Logo" width="50" height="50">
+	      </a>
+	    </div>
+
+	    <!-- GitHub Logo -->
+	    <div class="col">
+	      <a href="https://github.com/ninoovilla" target="_blank">
+	        <img src="C:\Users\Onin Ovilla\Desktop\B337\INDIVIDUAL\FRONTEND\capstone1\images\github.png" alt="GitHub Logo" width="50" height="50">
+	      </a>
+	    </div>
+	  </div>
+	</div>
+	<!-- Contact Section End -->
+	<!-- Include Font Awesome Script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-mQ91Ysj7yvzOnb8O+2U9Dh86J85aNMZ6t7XlMqhoS2lRNM5TqXO5g2R24eAOCsA6" crossorigin="anonymous"></script>
+
+	<!-- Message Us Section -->
+	<div class="contact-section text-center bg-light">
+		<h2  class="text-dark">Message Us</h2>
+		<div class="row mt-3 d-flex justify-content-center">
+			<div class="col-12 col-md-8 col-cl-4 bg-light text-dark rounded pt-4 pb-4">
+				<form id="form-col">
+					<div class="form-group">
+						<label for="name">Full Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email">
+					</div>
+					<div class="form-group">
+						<label for="contact-number">Contact Number</label>
+						<input type="number" class="form-control" id="contact-number" placeholder="Enter your contact number">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+					</div>
+					<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalDiv">Send Email</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalDiv" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thank you for contacting us!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					Message Successfully Sent
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Section -->
+	<footer class="bg-dark text-light text-center py-3">
+		<div class="container">
+			<!-- First Row -->
+			<div class="row">
+				<div class="col">
+					Nino Ovilla
+				</div>
+			</div>
+
+			<!-- Second Row -->
+			<div class="row">
+				<div class="col">
+					Full Stack Web Developer
+				</div>
+			</div>
+
+			<!-- Third Row -->
+			<div class="row">
+				<div class="col">
+					All Rights Reserved 2023
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
